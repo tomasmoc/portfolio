@@ -1,7 +1,6 @@
 #portfolio {
-    padding-top: 3rem;
-    height: 160vh;
-    bottom: 3rem;
+    margin: 12rem auto 12rem auto;
+
 }
 
 
@@ -9,7 +8,8 @@
     margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 2.0rem;
+    width: var(--container-width-sm);
 }
 
 .portfolio_item {
@@ -41,6 +41,16 @@
 }
 
 
+/* ====== MEDIA QUERIES (LARGE DEVICES) ====== */
+
+
+@media screen and (max-width: 1440px) {
+    #portfolio {
+        margin: 6rem auto 12rem auto;
+    
+    }
+  }
+
 /* ====== MEDIA QUERIES (MEDIUM DEVICES) ====== */
 
 @media screen and (max-width: 1024px) {
@@ -56,10 +66,8 @@
 @media screen and (max-width: 768px) {
 
     #portfolio {
-        padding-top: 0rem;
-        min-height: 400vh;
-        max-height: 420vh ;
-        bottom: 3rem;
+        margin: 12rem auto 12rem auto;
+
     }
 
     .container.portfolio_container {

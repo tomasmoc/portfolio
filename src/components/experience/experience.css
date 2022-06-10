@@ -1,6 +1,5 @@
 #experience {
-    padding-top: 3rem;
-    height: 90vh;
+    margin: 20rem auto 34rem auto;
 
 }
 
@@ -64,8 +63,7 @@
 
     #experience {
         padding-top: 3rem;
-        height: 110vh;
-    
+        margin: 12rem auto 12rem auto;
     }
 
     .experience {
@@ -80,16 +78,29 @@
     }
   }
 
-  /* ====== MEDIA QUERIES (SMALL DEVICES) ====== */
+    /* ====== MEDIA QUERIES (LARGE DEVICES) ====== */
+
+@media screen and (max-width: 1440px) {
+    #experience {
+            margin: 12rem auto 2rem auto;
+        }
+    }
+
+    /* ====== MEDIA QUERIES (MEDIUM DEVICES) ====== */
+
+@media screen and (max-width: 1024px) {
+    #experience {
+        margin: 12rem auto 12rem auto;
+    }
+}
+
+
+    /* ====== MEDIA QUERIES (SMALL DEVICES) ====== */
 
 @media screen and (max-width: 768px) {
 
-
-    
     #experience {
-        padding-top: 5rem;
-        max-height: 150vh;
-        min-height: 120vh;
+        margin: 12rem auto 12rem auto;
     }
 
     .experience_content {

@@ -1,7 +1,5 @@
 #services {
-    padding-top: 3rem;
-    height: 100vh;
-
+    margin: 20rem auto 26rem auto;
 }
 
 .services_container {
@@ -59,15 +57,29 @@
 }
 
 
+/* ====== MEDIA QUERIES (X-LARGE DEVICES) ====== */
+/* 
+@media screen and (max-width: 2560px) {
+    #services {
+        margin: 12rem auto 20rem auto;
+    }
+} */
+
+/* ====== MEDIA QUERIES (LARGE DEVICES) ====== */
+
+@media screen and (max-width: 1440px) {
+    #services {
+        margin: 12rem auto 20rem auto;
+    }
+}
+
 
 /* ====== MEDIA QUERIES (MEDIUM DEVICES) ====== */
 
 @media screen and (max-width: 1024px) {
 
     #services {
-        padding-top: 3rem;
-        height: 130vh;
-    
+        margin: 12rem auto 12rem auto;
     }
 
     .services_container {
@@ -92,9 +104,7 @@
     }
 
     #services {
-        min-height: 210vh;
-        max-height: 220vh;
-    
+        margin: 12rem auto 12rem auto;
     }
     
 }

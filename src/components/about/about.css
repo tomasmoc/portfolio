@@ -1,20 +1,17 @@
 #about {
-    padding-top: 3rem;
-    min-height: 100vh;
-    max-height: 120vh;
-
+    margin: 40rem auto 40rem auto;
+  
 }
 
 .about_container {
-    padding-top: 3rem;
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
 
 .about_me {
-    width: 100%;
-    height: 90%;
+    width: 70%;
+    height: 120%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -83,6 +80,20 @@
 }
 
 
+/* ====== MEDIA QUERIES (LARGE DEVICES) ====== */
+
+
+@media screen and (max-width: 1440px) {
+    #about {
+        margin: 12rem auto 12rem auto;
+    }
+
+    .about_me {
+        width: 80%;
+        height: 60%;
+    }
+  }
+
 /* ====== MEDIA QUERIES (MEDIUM DEVICES) ====== */
 
 @media screen and (max-width: 1024px) {
@@ -93,12 +104,13 @@
     }
 
     .about {
-        height: 160vh;
+        margin: 12rem auto 12rem auto;
     }
 
     .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        margin: 10rem auto;
+        width: 60%;
+        height: 70%;
     }
 
     .about_content {
@@ -116,14 +128,14 @@
 
 @media screen and (max-width: 768px) {
     .about_me {
-        width: 65%;
-        margin: 0 auto 3rem;
-        height: 100%;
+        margin: 6rem auto;
+        width: 70%;
+        height: 60%;
     }
 
     #about {
-        min-height: 150vh;
-        max-height: 150vh;
+        margin: 12rem auto 12rem auto;
+
     }
 
     .about_cards {
@@ -141,3 +153,9 @@
     }
 
 }
+
+  /* ====== MEDIA QUERIES (X-SMALL DEVICES) ====== */
+
+  @media screen and (max-width: 375px) {
+      
+  }

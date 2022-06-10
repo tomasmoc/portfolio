@@ -1,6 +1,6 @@
 import React from 'react';
 import "./header.css";
-import CTA from "./CTA"; 
+import UVOD from "./UVOD"; 
 import ME from '../../assets/header/me.jpg';
 import HeaderSocials from './HeaderSocials';
 
@@ -16,7 +16,7 @@ function Header() {
         
         
         <HeaderSocials />
-        <CTA />
+        <UVOD />
         
         <div className='me'>
           <img src={ME} alt='me' /> 
