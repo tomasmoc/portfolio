@@ -7,7 +7,6 @@ const Services = () => {
     <section id="services">
       <h5>Co nabízím</h5>
       <h2>Služby</h2>
-    
       <div className='container services_container'>
         <article className='service'>
           <div className='service_head'>

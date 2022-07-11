@@ -1,6 +1,6 @@
 #header {
     margin: 6rem auto;
-    min-height: 80vh;
+    min-height: 70vh;
     max-height: 100vh;
 }
 
@@ -68,7 +68,9 @@
 
 @media screen and (max-width: 1440px) {
     #header {
-        margin: 6rem auto 12rem auto;
+        margin: 6rem auto 20rem auto;
+        min-height: 100vh;
+        max-height: 120vh;
     }
 
     .me {

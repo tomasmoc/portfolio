@@ -41,21 +41,14 @@ const Contact = () => {
             <h5>+420604424706</h5>
             <a href="https://api.whatsapp.com/send?phone=+420604424706" target="_blank" rel="noreferrer">Odeslat zprávu</a>
           </article>
-
-
         </div>
-
-
 
         <form ref={form} onSubmit={sendEmail} >
           <input type="text" name='name' placeholder='Jméno a příjmení' required/>
           <input type="email" name='email' placeholder='Email' required/>
           <textarea name="message" rows="8" placeholder='Co máš na srdci'></textarea>
           <button type='submit'>Odeslat</button>
-
         </form>
-
-
       </div>
     </section>
   )

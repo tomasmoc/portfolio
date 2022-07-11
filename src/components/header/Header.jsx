@@ -7,7 +7,7 @@ import HeaderSocials from './HeaderSocials';
 
 function Header() {
   return (
-    <section id='header'>
+    <header id='header'>
       <div className="container header_container">
       
         <h5>Ahoj, já jsem</h5>
@@ -25,7 +25,7 @@ function Header() {
       </div>
 
       
-    </section>
+    </header>
   )
 }
 

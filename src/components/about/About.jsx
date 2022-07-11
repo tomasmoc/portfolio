@@ -6,7 +6,6 @@ import {FiUsers} from 'react-icons/fi';
 import {BsFolder} from 'react-icons/bs';
 
 
-
 const About = () => {
     return (
         <section id="about">

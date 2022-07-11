@@ -3,13 +3,10 @@ import AVTR1 from '../../assets/testmonials/Obrazek 9.jpeg';
 import AVTR2 from '../../assets/testmonials/Obrazek 10.jpeg';
 import AVTR3 from '../../assets/testmonials/Obrazek 11.jpeg';
 import AVTR4 from '../../assets/testmonials/Obrazek 12.jpeg';
-
 import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
-
 
 
 export const data = [

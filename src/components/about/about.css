@@ -11,8 +11,8 @@
 
 .about_me {
     width: 70%;
-    height: 120%;
-    aspect-ratio: 1/1;
+    height: 80%;
+    /* aspect-ratio: 1/1; */
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -21,7 +21,6 @@
         transparent);
     display: grid;
     place-items: center;
-
 }
 
 .about_me-image {
@@ -89,8 +88,17 @@
     }
 
     .about_me {
-        width: 80%;
-        height: 60%;
+        width: 70%;
+        height: 65%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(
+            45deg,
+            transparent,
+            var(--color-bg-variant),
+            transparent);
+        display: grid;
+        place-items: center;
     }
   }
 
